@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper-one {
+  padding-top: 150px;
+  padding-bottom: 140px;
+}
+.wrapper-one header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.wrapper-one header h3 {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  color: #898f99;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4.8px;
+  margin-bottom: 40px;
+}
+.wrapper-one header h1 {
+  color: #0ec8cb;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  margin-bottom: 45px;
+}
+.wrapper-one header p {
+  width: 513px;
+  color: #999999;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper-one .row .col-md {
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.wrapper-one .row .col-md svg {
+  margin-bottom: 40px;
+}
+.wrapper-one .row .col-md .item-name {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.wrapper-one .row .col-md .item-text {
+  width: 174px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #777777;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.wrapper-one .col-md:hover {
+  background-color: #0ec8cb;
+  transition: background 0.5s ease;
+}
+.wrapper-one .col-md:hover .item-name {
+  color: white;
+}
+.wrapper-one .col-md:hover .item-text {
+  color: white;
+}
+.wrapper-one .col-md:hover svg path {
+  fill: #fff;
+}
+@media (max-width: 768px) {
+  .wrapper-one header h1 {
+    width: auto;
+    line-height: normal;
+  }
+  .wrapper-one header p {
+    width: auto;
+  }
+}
